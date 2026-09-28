@@ -1,0 +1,12 @@
+[versions]
+slf4j = "2.0.19"
+junit = "4.13.2"
+maven-publish = "0.37.0"
+
+[libraries]
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+junit = { module = "junit:junit", version.ref = "junit" }
+
+[plugins]
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "maven-publish" }
